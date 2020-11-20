@@ -4,6 +4,7 @@ import axios from "axios";
 
 export default {
     searchBooks: function(search) {
-        return axios.get("http://books.google.com/books?id=sazytgAACAAJ&dq=title:" + search + "&hl=&source=gbs_api")
+        return axios.get("https://www.googleapis.com/books/v1/volumes?q=The+Road" + search)
     }
 };
+

@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
 // import Search from "./components/Search"
-import SearchPage from "../src/Pages/SearchPage";
-import SavedPage from "../src/Pages/SavedPage";
+import SearchPage from "../src/pages/SearchPage";
+import SavedPage from "../src/pages/SavedPage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 
