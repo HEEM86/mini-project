@@ -19,7 +19,7 @@ export default class Results extends Component{
 
     render () {
         return (
-            <h1>BOOOOOOOOOOOOOKS</h1>
+            <h1>The Books</h1>
         )
     }
 
