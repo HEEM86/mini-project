@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import Search from "../components/Search";
 import Results from "../components/Results";
 import { Container, Row, Col, useState } from 'react';

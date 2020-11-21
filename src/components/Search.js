@@ -20,26 +20,8 @@ class Search extends Component {
         })
     };
 
-    handleFormSubmit=event => {
-        event.preventDefault();
-        if (this.state.currentTerm) {
-            let localSearchTerms = this.state.currentTerm.split(" ");
-            let queryTerms = localSearchTerms.join("+");
-            let localQueryString = this.state.queryString+queryTerms;
-            API.googleBooks(localQueryString).then(response => {
-                console.log(response)
-                this.setState({
-                    books : response.data.items
-                })
-                console.log(this.state.books)
-            })
-        }
-    }
-}
-
-export default Search;
-
-
+    
+   
 
 // // console.log(books);
 // function Search () {
