@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.jumbotron {
+  background-image: url(https://images.unsplash.com/reserve/fvD9myEgRued3zLne2GS__DSC0033-1.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1355&q=80);
+  background-repeat: no-repeat, repeat;
+  background-position: top;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+
+}
+
+.navbar {
+  color: white;
+}
+
+.btn {
+  font-weight: bold;
+  color: black;
+  border-color: black;
+  background-color: rgb(109, 175, 109);
+  ;
+}
+
+
+.form{
+  border-color: black;
+  background-color: grey;
+}
+

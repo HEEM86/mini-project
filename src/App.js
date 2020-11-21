@@ -12,7 +12,7 @@ import "./App.css";
 function App() {
   return (
     <Router>
-    <div>
+    <div className="Container">
       <Navbar/>
       <Jumbotron/>
       <Switch>
