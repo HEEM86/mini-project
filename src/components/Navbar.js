@@ -3,15 +3,16 @@ import React from "react";
 function Navbar() {
   
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-success">
       <h1>DOOGLE BOOKS</h1>
-      <a className="navbar-brand" href="/">
+      <div style={{ height: 50, clear: "both", paddingTop: 10, textAlign: "center", marginLeft: 40}} className="navbar-brand" href="/"> 
         SEARCH
-      </a>
+      </div>
       <br></br>
-      <a className="navbar-brand" href="/">
+      <div style={{ height: 50, clear: "both", paddingTop: 10, textAlign: "center", marginLeft: 0}}className="navbar-brand" href="/">
         SAVED
-      </a>
+      </div>
+    
     </nav>
   );
 }

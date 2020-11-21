@@ -8,9 +8,10 @@ import search from "./Search";
 function Search () {
     API.searchBooks(search) 
     return (
-        <div style={{ height: 110, clear: "both", paddingTop: 120, textAlign: "center" }} className="jumbotron border border-success">       
+        <div style={{ height: 50, clear: "both", paddingTop: 25, textAlign: "center", marginLeft: 525, marginRight: 650 }} className="jumbotron border border-success">
+                 
             <form className="form-inline my-2 my-lg-0">
-                <input className="form-control mr-lg-2" type="search" placeholder="Search" aria-label="Search"/>
+                <input className="form-control mr-lg-2" type="search" placeholder="Search Books" aria-label="Search"/>
                 <button className="btn btn-outline-success my-2 my-sm-0" type="submit" onClick={e => console.log(e)}>Search</button>
             </form>
         </div>
