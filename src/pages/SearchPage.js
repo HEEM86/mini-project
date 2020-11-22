@@ -3,6 +3,7 @@ import Search from "../components/Search";
 import Results from "../components/Results";
 import { Container, Row, Col, useState } from 'react';
 
+
 function SearchPage () {
     return (
         <>
