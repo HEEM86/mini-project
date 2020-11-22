@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import API from "../utils/API";
 import search from "./Search";
 
 
@@ -10,7 +9,7 @@ import search from "./Search";
 
 
 
-// console.log(books);
+\
 function Search () {
     
     return (
